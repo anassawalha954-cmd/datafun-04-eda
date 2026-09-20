@@ -125,8 +125,9 @@ CATEGORICAL_COLUMNS: Final[list[str]] = [
 
 # === CHOOSE ONE RELATIONSHIP TO EXPLORE ===
 
-X_COLUMN: Final[str] = "flipper_length_mm"
+X_COLUMN: Final[str] = "bill_depth_mm"
 Y_COLUMN: Final[str] = "body_mass_g"
+
 
 
 # === DEFINE THE MAIN FUNCTION ===
