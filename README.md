@@ -64,7 +64,7 @@ This project produces the same EDA work in several useful forms.
 
 ## Initial Results
 
-![One analyst-selected relationship] <img width="1024" height="801" alt="image" src="https://github.com/user-attachments/assets/b4beca78-2c2d-44ff-9823-64fcbddded67" />
+ <img width="1024" height="801" alt="image" src="https://github.com/user-attachments/assets/b4beca78-2c2d-44ff-9823-64fcbddded67" />
 
 
 ![Bar chart of missing values by variable](docs/images/missing-values.png)
