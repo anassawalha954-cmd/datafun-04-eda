@@ -288,9 +288,10 @@ def main() -> None:
     )
 
     # CUSTOM: Analyst must customize the Matplotlib Axes object with a title and axis labels.
-    relationship_ax.set_title("Penguin Flipper Length vs. Body Mass")
-    relationship_ax.set_xlabel("Flipper Length (mm)")
+    relationship_ax.set_title("Penguin Bill Depth vs. Body Mass")
+    relationship_ax.set_xlabel("Bill Depth (mm)")
     relationship_ax.set_ylabel("Body Mass (g)")
+
 
     save_chart(
         relationship_ax,
