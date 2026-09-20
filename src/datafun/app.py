@@ -307,15 +307,17 @@ def main() -> None:
     # in a simple multi-line (triple-quoted) raw string (see the leading `r`).
 
     LOG.info(r"""CUSTOM OBSERVATIONS:
-    The dataset contains penguin measurements.
-    Some observations (rows) are complete, but some are missing values.
-
+    I analyzed the Palmer Penguins dataset with a specific focus on 
+    categorical distributions and physical weight variations.
+    
     I reviewed the relationship between:
-    Flipper length vs. body mass
-    and it shows a positive relationship.
+    Bill depth vs. body mass (instead of standard flipper length).
+    The analysis shows distinct grouping patterns across different penguin species and islands.
 
-    Based on this EDA, I would next like to review additional
-    relationships between other numeric variables.
+    Based on this EDA, I would next like to investigate the impact 
+    of missing data in categorical columns like 'sex' on group-level weight distributions.
+    """)
+
     Marimo (reactive notebook cells) might be a good choice
     for additional exploration.
     """)
